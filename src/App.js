@@ -26,7 +26,7 @@ const App =() => {
         <>
         <Navbar />
         <Switch>
-            <Route exact path = "/" component={Home} />
+            <Route exact path = "/techno" component={Home} />
             <Route exact path = "/AboutUs" component={AboutUs} />
             <Route exact path = "/Events" component={Events} />
             <Route exact path = "/OtherClubs" component={OtherClubs} />
@@ -44,7 +44,7 @@ const App =() => {
             <Route exact path = "/Arduino" component={Arduino} />
             <Route exact path = "/BSNL" component={Bsnl} />
             <Route exact path = "/TeleSys" component={TeleSys} />
-            <Redirect to="/" />
+            <Redirect to="/techno" />
         </Switch>
         </>
     )
